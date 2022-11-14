@@ -31,7 +31,7 @@ DELETE http://localhost:3000/products/21203833-a260-4db0-9b4d-9cffa6917d47
 GET http://localhost:3000/orders
 
 ###
-GET http://localhost:3000/orders/64be9c0d-0079-442b-8bd7-2de24c1cf322
+GET http://localhost:3000/orders/f6e32915-ccfb-40e3-8935-ec6c5f9720d3
 
 
 ###
@@ -42,13 +42,13 @@ Content-Type: application/json
     "credit_card": {
       "number": "1111111111111103",
       "name": "Filipe Cardoso",
-      "expiration_month": 9,
-      "expiration_year": 2022,
+      "expiration_month": 10,
+      "expiration_year": 2023,
       "cvv": "123"
     },
        "items":  [
       {
-          "quantity": 2, 
+          "quantity": 1, 
           "product_id": "3ac5d988-3cbd-45fc-b661-4b26901d8f07"
       }
    ]
